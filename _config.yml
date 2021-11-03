@@ -1,0 +1,8 @@
+title: Replit Theming
+description: Resources for designing your own Replit theme
+github_username: BD103
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
