@@ -6,3 +6,10 @@ github_username: BD103
 theme: minima
 plugins:
   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      nav: true
