@@ -1,0 +1,37 @@
+@use "mixins";
+
+.light {
+  $background: #eceff4;
+  $foreground: #2e3440;
+  $outline: #434c5e;
+  $primary: #88c0d0;
+  $positive: #a3be8c;
+  $negative: #bf616a;
+
+  @include mixins.light-replit-theme(
+    $background: $background,
+    $foreground: $foreground,
+    $outline: $outline,
+    $primary: $primary,
+    $positive: $positive,
+    $negative: $negative
+  );
+}
+
+.dark {
+  $background: #2e3440;
+  $foreground: #eceff4;
+  $outline: #434c5e;
+  $primary: #88c0d0;
+  $positive: #a3be8c;
+  $negative: #bf616a;
+
+  @include mixins.dark-replit-theme(
+    $background: $background,
+    $foreground: $foreground,
+    $outline: $outline,
+    $primary: $primary,
+    $positive: $positive,
+    $negative: $negative
+  );
+}
