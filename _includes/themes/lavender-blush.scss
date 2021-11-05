@@ -1,0 +1,10 @@
+@use "mixins";
+
+/*
+* Lavender Blush Theme
+* By BD103
+*/
+
+.light {
+  @include mixins.light-replit-theme(#f1e3e4, #1c1d21, #ccbcbc, #a288a6);
+}

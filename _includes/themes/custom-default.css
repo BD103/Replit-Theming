@@ -1,0 +1,67 @@
+.light.replit-ui-theme-root {
+  --background-root: #e3e3e3;
+  --background-default: #fcfcfc;
+  --background-higher: white;
+  --background-highest: white;
+  --background-overlay: #e3e3e3;
+  --foreground-default: #07080a;
+  --foreground-dimmer: black;
+  --foreground-dimmest: black;
+  --outline-default: #afb1b3;
+  --outline-default-25: rgba(175, 177, 179, 0.5);
+  --outline-dimmer: #c9cbcc;
+  --outline-dimmest: #fdfefe;
+  --accent-primary-strongest: #003d66;
+  --accent-primary-stronger: #007acc;
+  -webkit---accent-primary-default: #0099ff;
+  --accent-primary-default: #0099ff;
+  --accent-primary-dimmer: #33adff;
+  -webkit---accent-primary-dimmest: #99d6ff;
+  --accent-primary-dimmest: #99d6ff;
+  --accent-positive-strongest: #11491b;
+  --accent-positive-stronger: #259b39;
+  --accent-positive-default: #2fc448;
+  -webkit---accent-positive-dimmer: #51d567;
+  --accent-positive-dimmer: #51d567;
+  --accent-positive-dimmest: #a3e9af;
+  --accent-negative-strongest: #8e0a0a;
+  --accent-negative-stronger: #ee1010;
+  --accent-negative-default: #f23f3f;
+  -webkit---accent-negative-dimmer: #f56f6f;
+  --accent-negative-dimmer: #f56f6f;
+  --accent-negative-dimmest: #fccece;
+}
+
+.dark.replit-ui-theme-root {
+  --background-root: #0a0c12;
+  --background-default: #1c2333;
+  --background-higher: #2e3a54;
+  --background-highest: #526796;
+  --background-overlay: #0a0c12;
+  --foreground-default: #f5f9fc;
+  --foreground-dimmer: #cee1f0;
+  --foreground-dimmest: #7fb2d9;
+  --outline-default: #70788c;
+  --outline-default-25: rgba(112, 120, 140, 0.5);
+  --outline-dimmer: #596070;
+  --outline-dimmest: #2c2f37;
+  --accent-primary-strongest: #99d6ff;
+  --accent-primary-stronger: #33adff;
+  -webkit---accent-primary-default: #0099ff;
+  --accent-primary-default: #0099ff;
+  --accent-primary-dimmer: #007acc;
+  -webkit---accent-primary-dimmest: #003d66;
+  --accent-primary-dimmest: #003d66;
+  --accent-positive-strongest: #a3e9af;
+  --accent-positive-stronger: #51d567;
+  --accent-positive-default: #2fc448;
+  -webkit---accent-positive-dimmer: #259b39;
+  --accent-positive-dimmer: #259b39;
+  --accent-positive-dimmest: #11491b;
+  --accent-negative-strongest: #fccece;
+  --accent-negative-stronger: #f56f6f;
+  --accent-negative-default: #f23f3f;
+  -webkit---accent-negative-dimmer: #ee1010;
+  --accent-negative-dimmer: #ee1010;
+  --accent-negative-dimmest: #8e0a0a;
+}

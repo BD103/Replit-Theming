@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"><a href="{{ site.data.themes | map: page.theme-id }}">{{ page.title | escape }}</a></h1>
+  </header>
+
+  <div class="post-content">
+    <table>
+      <tbody>
+        {% for image in site.static_files %}
+          {% assign image-folder = "static/themes/" | append: page.theme-id %}
+          {% if image.path contains image-folder %}
+            <td>
+              <a href="{{ image.path }}">
+                <img src="{{ image.path }}" alt="{{ image.basename }}">
+              </a>
+            </td>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+
+    {{ content }}
+  </div>
+
+</article>
