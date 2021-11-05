@@ -8,8 +8,7 @@ plugins:
   - jekyll-feed
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       nav: true
