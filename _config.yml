@@ -1,6 +1,7 @@
 title: Replit Theming
 description: Resources for designing your own Replit theme
 github_username: BD103
+baseurl: "Replit-Theming"
 
 # Build settings
 theme: minima
