@@ -8,4 +8,4 @@ nav: false
 {% include reference/default.css %}
 ```
 
-[Raw text version here.](https://github.com/BD103/Replit-Theming/blob/main/_includes/default.css)
+[Raw text version here.](https://github.com/BD103/Replit-Theming/blob/main/_includes/reference/default.css)
